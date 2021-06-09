@@ -7,14 +7,14 @@
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
-    color: #1a1a1a;
+    color: #FF9900;
     margin-left: 7%;
 } 
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
-    color: #1a1a1a;
+    color: #FF9900;
     margin-left: 10%;
 } 
 
@@ -29,10 +29,10 @@ fieldset {
 
 /* Elemento de tag <body> */
 body{
-    background-color: #ffffff;
+    background-color: #1a1a1a;
     font-family: sans-serif;
     font-size: 1em;
-    color: #1a1a1a;
+    color: #FF9900;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -67,7 +67,7 @@ input, select, textarea, button {
 /* Elementos de classe "campo" de tag <label> */
 .campo label {
     margin-bottom: 0.2em;
-    color: #1a1a1a;
+    color: #FF9900;
     display: block;
 }
 
@@ -92,13 +92,13 @@ fieldset.grupo .campo {
 
 /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
 .campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: #e0e0e0;
+    background: #ffe5bd;
 }
 
 /* Elemento de classe "botao" */
 .botao {
     font-size: 1.2em;
-    background: #1a1a1a;
+    background: #FF9900;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
